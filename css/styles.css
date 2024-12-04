@@ -60,3 +60,14 @@ button {
 .color-antique-white {
     color: antiquewhite;
 }
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+
+    .main-section {
+        width: 100%;
+    }
+}

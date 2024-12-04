@@ -29,25 +29,26 @@
                     <label for="berat-badan-input">
                         Berat Badan (kg):
                     </label>
-                    <input type="number" id="berat-badan-input" />
+                    <input type="number" id="berat-badan-input" required />
                 </div>
 
                 <div class="form-item">
                     <label for="usia-input">
                         Usia (tahun):
                     </label>
-                    <input type="number" id="usia-input" />
+                    <input type="number" id="usia-input" required />
                 </div>
 
                 <div class="form-item">
                     <label for="tinggi-badan-input">
                         Tinggi Badan (cm):
                     </label>
-                    <input type="number" id="tinggi-badan-input" />
+                    <input type="number" id="tinggi-badan-input" required />
                 </div>
 
                 <div class="form-button-container">
-                    <button class="bg-cadet-blue color-antique-white">Hitung BMI</button>
+                    <button type="button" class="bg-cadet-blue color-antique-white" onclick="validateForm();">Hitung
+                        BMI</button>
                     <button class="bg-alice-blue">Reset</button>
                 </div>
             </form>
@@ -87,6 +88,8 @@
     <footer>
         <p>Made by Yama@2024</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
